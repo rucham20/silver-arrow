@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Web App</title>
+<!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="webapp.css">
+<!--JavaScript-->
+<script type="text/javascript" src="webapp.js"></script>
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+	<div id="health">
+	<p>Health</p>
+	<img id="bread1" src="backgrounds/bread.png" width="40" height="40" alt=""/>
+	<img id="bread2" src="backgrounds/bread.png" width="40" height="40" alt=""/>
+	<img id="bread3" src="backgrounds/bread.png" width="40" height="40" alt=""/>
+	<img id="bread4" src="backgrounds/bread.png" width="40" height="40" alt=""/>
+	<img id="bread5" src="backgrounds/bread.png" width="40" height="40" alt=""/>
+	
+	
+	<p>
+	<img id="heart1" src="images/heart.png" width="40" height="40" alt=""/>
+	<img id="heart2" src="images/heart.png" width="40" height="40" alt=""/>
+	<img id="heart3" src="images/heart.png" width="40" height="40" alt=""/>
+	<img id="heart4" src="images/heart.png" width="40" height="40" alt=""/>
+	<img id="heart5" src="images/heart.png" width="40" height="40" alt=""/>
+	</p>
+	</div>
+	
+	
+	<div id="goal">
+		<h2>goals</h2>
+	</div>
+	
+	
+<div id="choices">
+		<h2>choices</h2>
+			<div id="buttons">
+				<input type="button"
+				value="SWORD"
+ 				onClick="sword=true; displayStory('Checkpoint1');">
+ <p>A powerful blade...</p>
+
+	<input type="button"
+ 		value="BREAD"
+ 		onClick="bread=true; displayStory('Checkpoint1');">
+ <p>Warm toasted sustenance...</p>
+ 
+</div>
+</div>
+	
+	<!--TOOLTIP FOR INVENTORY ITEMS-->
+	<div id ="inventory">
+		<p>Inventory</p>
+		<div class="dropdown">
+		<img id="waterbottle" src="images/waterbottle.png" width="40" height="60" alt="" border="4"/>
+  		<div class="dropdown-content">
+    	<p>Water Bottle</p>
+  </div>
+  </div>
+ 
+ 		<div class="dropdown">
+		<img id="pocketknife" src="images/pocketknife.png" width="50" height="60" alt="" border="4"/>
+		<div class="dropdown-content">
+    	<p>Pocket Knife</p>
+  </div>
+  </div>
+  
+  		<div class="dropdown">
+		<img id="rock" src="images/rock.png" width="20" height="60" alt="" border="4"/>
+		<div class="dropdown-content">
+    	<p>Rock</p>
+  </div>
+  </div>
+  
+  		<div class="dropdown">
+		<img id="sword1" src="images/Sword.png" width="70" height="60" alt=""border="4"/>
+		<div class="dropdown-content">
+    	<p>Sword</p>
+  </div>
+  </div>
+  
+		<div class="dropdown">
+		<img id="driedfruit" src="images/driedfruit.png" width="70" height="60" alt="" border="4"/>
+		<div class="dropdown-content">
+    	<p>Dried Fruit</p>
+  </div>
+  </div>
+  
+		<div class="dropdown">  
+		<img id="rope" src="images/rope.png" width="70" height="60" alt=""border="4"/>
+		<div class="dropdown-content">
+    	<p>Rope</p>
+  </div>
+  </div>
+  </div>
+	
+	<div id ="story">
+		<p>You wake up in a dark, dreary cave. You have no memory of your previous life, and the only thing in your mind is the echo of water dripping from the ceiling.You see two things in the cave: A sword and a package of bread. Which do you take? Only one will fit in your backpack.</p>
+	</div>
+
+
+
+
+<script type="text/javascript">
+</script>
+
+</body>
+</html>
